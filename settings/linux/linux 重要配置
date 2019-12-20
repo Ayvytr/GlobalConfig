@@ -1,0 +1,34 @@
+更新 gcc vi
+
+android studio
+sudo apt-get install libgtk2.0-0:i386 libxxf86vm1:i386 libsm6:i386 lib32stdc++6
+
+配置vimrc
+
+配置bashrc
+
+sudo passwd root
+su
+
+保存屏幕亮度                 echo 30 > /sys/class/backlight/acpi_video0/brightness
+	
+
+vi /etc/rc.local 
+	echo 30 > /sys/class/backlight/intel_backlight/brightness
+
+
+更改时间为本地时间 
+vim /etc/default/rcS          (找到关于utc的设置）
+#utc=yes                   #注释掉，并改为no
+utc=no                        #保存退出
+
+
+getconf	获取一些系统宏定义等数字的值
+ctrl+r	快速搜索history
+
+ctrl+;	可输入位置显示5个路径，应该是搜狗的
+
+
+QT +=  widgets 
+
+

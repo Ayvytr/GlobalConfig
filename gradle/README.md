@@ -5,6 +5,16 @@ kotlin_maven_push.gradle: Kotlin Javadoc of Android library for Bintray maven pu
 
 
 
+## 发布到bintray，未加入到jcenter的库，添加如下repositories依赖进行引用
+
+```
+maven { url "https://dl.bintray.com/ayvytr/maven" }
+```
+
+
+
+
+
 # Getting Started
 
 
